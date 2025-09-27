@@ -746,6 +746,9 @@ MODEL_ALIASES = {
     "google-t5/t5-base": ["t5-base"],
     "google-t5/t5-large": ["t5-large"],
     "ai-forever/mGPT": ["mGPT"],
+    "allenai/OLMoE-1B-7B-0125": ["OLMoE-1B-7B-0125", "olmoe-1b-7b-0125"],
+    "allenai/OLMoE-1B-7B-0125-SFT": ["OLMoE-1B-7B-0125-SFT", "olmoe-1b-7b-0125-sft"],
+    "allenai/OLMoE-1B-7B-0125-Instruct": ["OLMoE-1B-7B-0125-Instruct", "olmoe-1b-7b-0125-instruct", "olmoe-i"],
 }
 """Model aliases for models on HuggingFace."""
 
